@@ -9,6 +9,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Where would you like to go?"
 
-
-user_input = gets.string
+input = gets.string
 input_to_index(user_input)
