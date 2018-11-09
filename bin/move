@@ -12,6 +12,6 @@ puts "Where would you like to go?"
 input = gets.strip.to_i
 input_to_index(input)
 
-move(board, input, " ")
+move(board, input, value)
 
 display_board(board)
