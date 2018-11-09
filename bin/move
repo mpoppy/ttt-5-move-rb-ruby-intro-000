@@ -7,3 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where woudl you like to go?"
 
 user_input = gets.string
+input_to_index(user_input)
