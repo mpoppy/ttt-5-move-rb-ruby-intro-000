@@ -15,6 +15,6 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move(board, user_input, value = "")
+def move(board, user_input, value = " ")
   board[user_input] = value
 end
