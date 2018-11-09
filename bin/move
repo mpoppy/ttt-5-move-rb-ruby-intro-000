@@ -9,7 +9,7 @@ puts "Where would you like to go?"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 input = gets.strip.to_i
-new_input_to_index = (input)
+new_input_to_index = input
 
 move(board, new_input_to_index, "X")
 
