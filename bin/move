@@ -11,6 +11,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 input = gets.strip.to_i
 input_to_index(input)
 
-move(array, input, value)
+move(board, input, "X")
 
 display_board(board)
