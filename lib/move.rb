@@ -10,7 +10,6 @@ end
 
 def input_to_index(input)
   converted_input = input - 1
-  #converted_input = user_input - 1
 end
 
 #board = [" ", " ", " "]
